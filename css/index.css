@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.seccion {
+    background-color: #FFFF;
+    text-align: center;
+    border-style: dashed;
+    
+}
+p:before{
+    content: attr(type);
+
+}
+
+.imagen{
+    background-color: #e9ecef;
+}
+
+img{
+    width: 300px;
+    height: auto;
+   
+}
+
+.btn{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    justify-content: center;
+    
+    
+}
+
+.botonera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6ecec;
+}
+
+button{
+    
+    background-color: #FFFF;
+    margin: 3px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    cursor: pointer;
+}
+
+.reset{
+    background-color: coral;
+    padding: 20px;
+   
+}
+
+.pokem{
+    border: 2px solid ;
+}
+
